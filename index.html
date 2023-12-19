@@ -15,44 +15,50 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
   </head>
   <body class="body-studio">
     <header>
       <!--Navigation section-->
-      <nav class="navigation">
-        <a class="logo link" href="./index.html"
-          >Web<span class="accent-header">Studio</span></a
-        >
+      <div class="hero-content-container">
+        <nav class="navigation">
+          <a class="logo link" href="./index.html"
+            >Web<span class="accent-header">Studio</span></a
+          >
 
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="index link">Index</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="index link">Portfolio</a>
-          </li>
+          <ul class="list menu">
+            <li>
+              <a href="./index.html" class="index link">Index</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="index link">Portfolio</a>
+            </li>
 
-          <li><a href="" class="index link">Studio</a></li>
-          <li>
-            <a href="" class="index link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <!--Address-->
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="contact link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <li><a href="" class="index link">Studio</a></li>
+            <li>
+              <a href="" class="index link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!--Address-->
+        <address class="address">
+          <ul class="address list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contact link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!--First section-->
@@ -67,9 +73,10 @@
       </section>
 
       <!--Second section-->
+
       <section class="second-section">
-        <h2 class="second-section-title">text</h2>
-        <ul class="list">
+        <h2 hidden>text</h2>
+        <ul class="list second-section-container">
           <li>
             <h3 class="second-section-title">Strategy</h3>
             <p class="second-section-paragraph">
@@ -105,9 +112,9 @@
       </section>
 
       <!--Third section-->
-      <section class="third-section">
+      <section class="third-section-container">
         <h2 class="third-section-title">What are we doing</h2>
-        <ul class="list">
+        <ul class="third-section list">
           <li>
             <img src="./images/image1.jpg" alt="typing" width="360" />
           </li>
@@ -124,47 +131,58 @@
         </ul>
       </section>
       <!--Fourth section-->
+      <div class="fourth-section-container">
+        <section class="fourth-section">
+          <h2 class="fourth-section-title">Our Team</h2>
+          <ul class="fourth-section list">
+            <li class="list-item">
+              <img
+                class="card-image"
+                src="./images/man2.jpg"
+                alt="man with glasses smilig"
+                width="264"
+              />
 
-      <section class="fourth-section">
-        <h2 class="fourth-section-title">Our Team</h2>
-        <ul class="list">
-          <li class="list-item">
-            <img
-              src="./images/man2.jpg"
-              alt="man with glasses smilig"
-              width="264"
-            />
-            <h3 class="second-section-title">Mark Guerrero</h3>
-            <p class="second-section-paragraph">Product Designer</p>
-          </li>
+              <h3 class="second-section-title">Mark Guerrero</h3>
+              <p class="second-section-paragraph">Product Designer</p>
+            </li>
 
-          <li class="list-item">
-            <img src="./images/woman1.jpg" alt="woman smiling" width="264" />
-            <h3 class="second-section-title">Tom Ford</h3>
-            <p class="second-section-paragraph">Frontend Developer</p>
-          </li>
+            <li class="list-item">
+              <img
+                class="card-image"
+                src="./images/woman1.jpg"
+                alt="woman smiling"
+                width="264"
+              />
 
-          <li class="list-item">
-            <img
-              src="./images/man1.jpg"
-              alt="man without glasses smiling"
-              width="264"
-            />
-            <h3 class="second-section-title">Camila Garcia</h3>
-            <p class="second-section-paragraph">Marketing</p>
-          </li>
+              <h3 class="second-section-title">Tom Ford</h3>
+              <p class="second-section-paragraph">Frontend Developer</p>
+            </li>
 
-          <li class="list-item">
-            <img
-              src="./images/man3.jpg"
-              alt="man in black with glasses smiling"
-              width="264"
-            />
-            <h3 class="second-section-title">Daniel Wilson</h3>
-            <p class="second-section-paragraph">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+            <li class="list-item">
+              <img
+                class="card-image"
+                src="./images/man1.jpg"
+                alt="man without glasses smiling"
+                width="264"
+              />
+              <h3 class="second-section-title">Camila Garcia</h3>
+              <p class="second-section-paragraph">Marketing</p>
+            </li>
+
+            <li class="list-item">
+              <img
+                class="card-image"
+                src="./images/man3.jpg"
+                alt="man in black with glasses smiling"
+                width="264"
+              />
+              <h3 class="second-section-title">Daniel Wilson</h3>
+              <p class="second-section-paragraph">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer class="footer">
