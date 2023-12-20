@@ -76,6 +76,10 @@
     
     
 }
+.hero-content{
+    width: 1158px;
+    margin: 0 auto;
+}
 /*Section 1*/
 
 .first-section {
@@ -164,6 +168,8 @@ margin:auto;
     letter-spacing: 0.02em;
     background-color: #FFFFFFFF;
     margin-bottom: 8px;
+    text-align: center;
+    
     
     
 
@@ -173,6 +179,7 @@ margin:auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    
     
 
 }
@@ -215,11 +222,12 @@ margin:auto;
     
 }
 .fourth-section {
-    gap:24px;
-    min-width: 1128px;
-    margin:0 auto;
-    
+    padding: 120px 0;
    
+}
+.fourth-section-list{
+display: flex;
+gap: 24px
 }
 
 .fourth-section-title {
@@ -231,17 +239,21 @@ margin:auto;
     text-transform: capitalize;
     background-color: #F4F4FD;
     padding-top:120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
 
 .list-item{
     background-color: #FFFFFFFF;
+    border-radius: 0px 0px 4px 4px 4px;
     
 }
 .card-image{
     display: block;
 
+}
+.list-item-card{
+    padding: 32px 0;
 }
 
 /*Footer*/
