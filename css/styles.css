@@ -24,7 +24,8 @@
 }
 .header-container{
     border-bottom: 1px solid #e7e9fc;
-    
+    width: 1158px;
+    margin: 0;
 }
 .accent-header{
     color: #2e2f42;
@@ -76,7 +77,7 @@
     
     
 }
-.hero-content{
+.hero-content {
     width: 1158px;
     margin: 0 auto;
 }
