@@ -93,7 +93,7 @@
     padding:0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip:rect(0000);
+    clip:rect(0 0 0 0);
     overflow: hidden;
 }
 .first-section {
@@ -428,14 +428,11 @@ img {
 }
 .hero-content{
     display: flex;
+    
 }
 .container{
-    width: 1128px;
+    width: 1158px;
     margin:0;
     padding: 0 15px;
     
-}
-.hero-content .container{
-    width: 1158px;
-    margin: 0 auto;
 }
