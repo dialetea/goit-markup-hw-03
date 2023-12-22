@@ -84,6 +84,18 @@
 
 /*Section 1*/
 
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin:-1px;
+    border:0;
+    padding:0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip:rect(0000);
+    overflow: hidden;
+}
 .first-section {
     background-color: #2e2f42;
     min-width: 1440px;
@@ -181,7 +193,7 @@ margin:auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    text-align: center;
+    
     
     
 
@@ -422,4 +434,8 @@ img {
     margin:0;
     padding: 0 15px;
     
+}
+.hero-content .container{
+    width: 1158px;
+    margin: 0 auto;
 }
