@@ -282,6 +282,9 @@ gap: 24px;
 }
 .list-item{
     background-color: #FFFFFFFF;   
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px 4px;
+
 }
 
 .card-image{
@@ -411,6 +414,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    
     
     
 }
