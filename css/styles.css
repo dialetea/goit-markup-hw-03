@@ -83,6 +83,7 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    
 
 }
 .hero-content {
@@ -223,6 +224,7 @@ margin:auto;
     
     align-items: flex-start;
     gap:24px;
+    padding-left: 0;
     
 }
 .third-section.list li {
@@ -301,7 +303,8 @@ gap: 24px;
     background-color: #FFFFFFFF;   
     text-align: center;
     margin-right: 24px;
-  
+border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
 
 }
 .fourth-section-list.list-item:last-child {
@@ -310,7 +313,7 @@ gap: 24px;
 
 
 .fourth-section-list .list-item:first-child {
-    width: calc((100% - 72px) / 4);
+    
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -318,6 +321,7 @@ gap: 24px;
 
 .card-image{
     display: block;
+    width: 100%;
     
 
 }
