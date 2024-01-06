@@ -24,9 +24,9 @@
 }
 .header-container{
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
-    margin: 0;
+    
 }
+
 .accent-header{
     color: #2e2f42;
         font-family: "Raleway", sans-serif;
@@ -41,6 +41,8 @@
 .list {
     list-style: none;
     display:flex;
+    gap:40px;
+    align-items: center;
 }
 .link {
     text-decoration: none;
@@ -51,22 +53,21 @@
 .link:focus{
     color: #404BBF;
 }
-.address {
+.contact {
     font-style: normal;
-    display:flex;
-    justify-content: flex-end;
-    gap:40px;
-    width: 151px;
-    height: 24px;
-   
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
-.contact{
+.address-description {
     color: #434455;
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    
+    letter-spacing: 0.32px;
+    text-decoration: none;
 }
 .index{
     font-weight: 500;
@@ -77,9 +78,18 @@
     
     
 }
-.hero-content {
+.container {
     width: 1158px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 /*Section 1*/
@@ -437,16 +447,6 @@ img {
     
 }
 
-li:nth-child(3n) {
-    margin-right: 0;
-}
-
-
-li:nth-child(4n) {
-    margin-bottom: 0;
-}
-
-
 
 .list-element:first-child {
     width: calc((100% - 48px) / 3);
@@ -483,11 +483,7 @@ li:nth-child(4n) {
 }
 .hero-content{
     display: flex;
+    align-items: center;
     
 }
-.container{
-    width: 1158px;
-    margin:0;
-    padding: 0 15px;
-    
-}
+
