@@ -303,7 +303,7 @@ background-color: #ffffff;
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    height: 312px;
+    
 }
 
 .footer-paragraph {
@@ -415,13 +415,12 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
-.list-element {
-    width: calc((100% - 48px) / 3);
-   
-}
+
 
 .name-application{
     display: flex;
