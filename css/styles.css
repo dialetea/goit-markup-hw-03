@@ -3,8 +3,6 @@
     --brand-color:#434455;
 }
 
-
-
 .body-studio {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -31,13 +29,13 @@
 
 .accent-header{
     color: #2e2f42;
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .list {
@@ -48,6 +46,7 @@
 }
 .link {
     text-decoration: none;
+    
 }
 .link:hover{
     color:#404BBF;
@@ -164,7 +163,7 @@
 .second-section-container{
     display: flex;
     gap: 24px;
-    margin:auto;
+    margin:0 auto;
 }
 
 .second-section-title, .second-section-paragraph{
@@ -175,11 +174,11 @@
     gap: 8px;
     
 }
+
 .second-section-item{
 width: calc((100% - 72px) / 4);
-margin:auto;
-}
-       
+margin:0 auto;
+}  
 
 .second-section-title {
     color: #2e2f42;
@@ -195,20 +194,17 @@ margin:auto;
 
 .fourth-section-paragraph{
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
 }
 
 .second-section-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
-    
-    
-
+    color:#434455; 
 }
 
 /*Section 3*/
@@ -217,11 +213,9 @@ margin:auto;
 }
 
 .third-section {
-    
     align-items: flex-start;
     gap:24px;
-    margin: auto;
-    
+    margin: 0 auto;
 }
 
 .third-section-title {
@@ -231,8 +225,6 @@ margin:auto;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-    
-    
 }
 
 .third-section-item{
@@ -261,7 +253,6 @@ gap: 24px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom: 72px;
-    
 }
 
 .fourth-section-name{
