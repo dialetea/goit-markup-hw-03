@@ -127,8 +127,6 @@
     font-weight: 700;
     letter-spacing: 1.12px;
     padding-bottom: 48px;
-    
-    
 
     
 }
@@ -145,16 +143,14 @@
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin:0 auto;
-    
+    margin:0 auto;  
     cursor: pointer;
-    
-    
 }
 
 .first-section-button:hover{
     background-color: #404bbf;
 }
+
 .first-section-button:focus{
     background-color: #404bbf;
 }
@@ -169,10 +165,8 @@
     display: flex;
     gap: 24px;
     margin:auto;
-    
-    
-    
 }
+
 .second-section-title, .second-section-paragraph{
     display: flex;
     width: 264px;
@@ -184,7 +178,6 @@
 .second-section-item{
 width: calc((100% - 72px) / 4);
 margin:auto;
-
 }
        
 
@@ -197,8 +190,6 @@ margin:auto;
     background-color: #FFFFFFFF;
     margin-bottom: 8px;
     text-align: center;
-    
-
 }
 
 
@@ -209,6 +200,7 @@ margin:auto;
         color: #434455;
         text-align: center;
 }
+
 .second-section-paragraph {
     font-size: 16px;
     line-height: 1.5;
@@ -218,10 +210,12 @@ margin:auto;
     
 
 }
+
 /*Section 3*/
 .third-section-container{
     padding-bottom: 120px;
 }
+
 .third-section {
     
     align-items: flex-start;
@@ -229,8 +223,6 @@ margin:auto;
     margin: auto;
     
 }
-
-
 
 .third-section-title {
     color: #2e2f42;
@@ -242,6 +234,7 @@ margin:auto;
     
     
 }
+
 .third-section-item{
     display: flex;
     gap: 24px;
@@ -253,13 +246,11 @@ margin:auto;
 .fourth-section{
     background-color: #F4F4FD;
     padding:120px 0;
-    
 }
 
 .fourth-section-list{
 display: flex;
 gap: 24px;
-
 }
 
 .fourth-section-title {
@@ -272,6 +263,7 @@ gap: 24px;
     margin-bottom: 72px;
     
 }
+
 .fourth-section-name{
     color: #2e2f42;
     font-weight: 500;
@@ -280,20 +272,19 @@ gap: 24px;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
 }
+
 .list-item{
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 
 }
 
-
 .card-image{
     display: block;
     max-width: 100%;
     height: auto;
-    
-
 }
+
 .name-and-job{
 padding: 32px 0;
 text-align: center;
@@ -424,9 +415,6 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    
-    
-    
 }
 
 
