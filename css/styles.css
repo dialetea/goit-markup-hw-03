@@ -419,9 +419,9 @@ img {
     padding-right: 0;
 }
 
-
-
-
+.list-element{
+    width: calc((100% - 48px) / 3);
+}
 .name-application{
     display: flex;
     width: 360px;
